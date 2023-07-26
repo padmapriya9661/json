@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "email": "user@gmail.com",
+      "password": "user",
+      "name": "user",
+      "role": "user",
+      "status": "Active",
+      "id": 1
+    },
+    {
+      "email": "sinny@gmail.com",
+      "password": "sinny",
+      "name": "siny",
+      "role": "admin",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "username": "sinny",
+      "email": "sam@gmail.com",
+      "role": "admin",
+      "status": "",
+      "id": 5
+    },
+    {
+      "username": "sinnu",
+      "email": "sinnu@gmail.com",
+      "role": "admin",
+      "status": "",
+      "id": 6
+    },
+    {
+      "username": "sinny",
+      "email": "sinny@gmail.com",
+      "role": "admin",
+      "status": "",
+      "id": 7
+    },
+    {
+      "username": "s",
+      "email": "s@gmail.com",
+      "role": "user",
+      "status": "",
+      "id": 8
+    },
+    {
+      "username": "a",
+      "email": "a@gmail.com",
+      "role": "user",
+      "status": "",
+      "id": 9
+    }
+  ],
+  "bookings": [
+    {
+      "heading": "Small Conference room",
+      "date": "2023-07-15",
+      "capacity": 20,
+      "total": "100",
+      "bookfor": "Half Day",
+      "ppday": "200",
+      "status": "Confirmed",
+      "users": [
+        {
+          "name": "sam",
+          "phone": "9087654321",
+          "email": "sam@gmail.com",
+          "address": "goa",
+          "company": "tcs",
+          "city": "goa",
+          "state": "goa",
+          "country": "India",
+          "zip": "585327"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "heading": "Small Conference room",
+      "date": "2023-07-30",
+      "capacity": 10,
+      "total": "50",
+      "bookfor": "Half Day",
+      "ppday": "100",
+      "status": "Confirmed",
+      "users": [
+        {
+          "name": "sinny",
+          "phone": "9876540321",
+          "email": "sinny@gmail.com",
+          "address": "banglore",
+          "company": "lucida",
+          "city": "banglore",
+          "state": "karnataka",
+          "country": "india",
+          "zip": "585327"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "heading": "Small Conference room",
+      "date": "2023-07-30",
+      "capacity": 10,
+      "total": "50",
+      "bookfor": "Half Day",
+      "ppday": "100",
+      "status": "Confirmed",
+      "users": [
+        {
+          "name": "sinny",
+          "phone": "9876543021",
+          "email": "sinny@gmail.com",
+          "address": "banglore",
+          "company": "lucida",
+          "city": "banglore",
+          "state": "karnatka",
+          "country": "india",
+          "zip": "585327"
+        }
+      ],
+      "id": 8
+    }
+  ],
+  "userBookings": [
+    {
+      "id": 1,
+      "roomName": "Small Conference Room",
+      "capacity": "12 People",
+      "price": [
+        "69.00 per hour",
+        "250 half day"
+      ],
+      "image": "/images/small-room.jpg",
+      "description": [
+        "This workspace gives business and mobile travellers privacy to work undistrubed",
+        " Confortable, Private workspace",
+        " Super fast wi-fi",
+        " Catch up on emails",
+        " Printer supplied",
+        "Print of a forgotten document",
+        "Make a call in peace and quite",
+        "Power station to recharge laptop",
+        "For wheelchair users, alternate facilities available."
+      ]
+    },
+    {
+      "id": 2,
+      "roomName": "Large Conference Room",
+      "capacity": "40 People",
+      "price": [
+        "200.00 per hour",
+        "1000 per day"
+      ],
+      "image": "/images/large-room.jpg",
+      "description": [
+        "This workspace gives business and mobile travellers privacy to work undistrubed",
+        " Confortable, Private workspace",
+        " Super fast wi-fi",
+        " Catch up on emails",
+        " Printer supplied",
+        "Print of a forgotten document",
+        "Make a call in peace and quite",
+        "Power station to recharge laptop",
+        "For wheelchair users, alternate facilities available."
+      ]
+    },
+    {
+      "id": 3,
+      "roomName": "Panoramic  Room",
+      "capacity": "20 People",
+      "price": [
+        "160.00 per hour",
+        "850 per day"
+      ],
+      "image": "/images/panoramic-room.jpg",
+      "description": [
+        "Situated in an instantly recognized address. a short walk from Westminstethese service offices are imposing. Accessable from Charing Cross Station, they are perfect for business needing access. Break out areas  to brainstrom ideas. Major transport links making it perfect if you travel.",
+        "Width: 7.85mm",
+        "Length: 6.9m",
+        "Height: 3.25m",
+        "Total floor space: 76m"
+      ]
+    }
+  ]
+}
